@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+  <title id="title">MiniRAGent 项目封面</title>
+  <desc id="desc">一个连接订单、知识库、网页搜索、图片生成与人工客服的智能客服 Agent</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="1" stop-color="#163858"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#65e8d0"/>
+      <stop offset="1" stop-color="#78a8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="290" rx="28" fill="url(#bg)"/>
+  <circle cx="1070" cy="-25" r="210" fill="#78a8ff" opacity=".08"/>
+  <circle cx="1110" cy="260" r="165" fill="#65e8d0" opacity=".06"/>
+  <rect x="48" y="45" width="63" height="63" rx="17" fill="url(#accent)"/>
+  <text x="79" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#0b1026">M</text>
+  <text x="132" y="87" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5fbff">MiniRAGent</text>
+  <text x="49" y="151" font-family="Arial, sans-serif" font-size="21" fill="#bfd6ec">An intelligent support agent with grounded answers and human handoff</text>
+  <path d="M49 185 H1148" stroke="#7292b0" stroke-width="1" opacity=".35"/>
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle">
+    <rect x="49" y="209" width="190" height="44" rx="22" fill="#1a4b62" stroke="#65e8d0" stroke-opacity=".5"/>
+    <text x="144" y="237" fill="#d7fff5">Order lookup</text>
+    <rect x="260" y="209" width="190" height="44" rx="22" fill="#1b4162" stroke="#78a8ff" stroke-opacity=".5"/>
+    <text x="355" y="237" fill="#e4efff">Local RAG</text>
+    <rect x="471" y="209" width="190" height="44" rx="22" fill="#1b4162" stroke="#78a8ff" stroke-opacity=".5"/>
+    <text x="566" y="237" fill="#e4efff">Web search</text>
+    <rect x="682" y="209" width="190" height="44" rx="22" fill="#1b4162" stroke="#78a8ff" stroke-opacity=".5"/>
+    <text x="777" y="237" fill="#e4efff">Image generation</text>
+    <rect x="893" y="209" width="245" height="44" rx="22" fill="#1a4b62" stroke="#65e8d0" stroke-opacity=".5"/>
+    <text x="1015" y="237" fill="#d7fff5">Human handoff</text>
+  </g>
+</svg>

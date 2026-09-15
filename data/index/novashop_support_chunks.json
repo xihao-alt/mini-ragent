@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "text": "NovaShop Customer Support Knowledge Base Version 1.0 - Fictional Training Data 1. Products and Orders NovaShop sells electronics, home goods, apparel, and digital products. An order is confirmed only after the customer receives an order confirmation number. In-stock physical items normally enter Packing within 30 minutes. Preorder release dates are",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 1,
+    "text": "estimates and may change; customers are notified by email when a date changes. 2. Shipping and Tracking Standard domestic shipping takes 3-5 business days after dispatch. Express shipping takes 1-2 business days. Orders may need 1-2 business days for processing before dispatch. Tracking can take 24 hours to show movement. A package marked delivered should",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 2,
+    "text": "be checked with household members and neighbors; if still missing after 24 hours, contact NovaShop. 3. Address Changes and Cancellation Customers may change the delivery address or cancel an order only while its status is Confirmed. Most orders remain in that status for no more than 30 minutes. Once an order is Packing or Shipped, NovaShop cannot change the address or cancel it. For shipped",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 3,
+    "text": "orders, the customer may ask the carrier for redirection or start a return after delivery. 4. Returns and Non-returnable Items Eligible physical products may be returned within 30 calendar days of delivery. They must be unused, with original packaging, accessories, and proof of purchase. Personalized goods, downloadable or activated digital products, gift cards, final-sale",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 4,
+    "text": "items, and opened hygiene products such as earbuds or cosmetics are not eligible for change-of-mind returns. Defective-item rights still apply. 5. Refunds NovaShop issues an approved refund to the original payment method within 5-7 business days after the returned item passes inspection. Banks may take up to 10 additional business days to display the credit. Original express shipping fees are not refundable",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 5,
+    "text": "unless NovaShop sent the wrong item or the product arrived damaged. Refunds overdue by more than 10 business days after approval must be escalated to a human agent. 6. Exchanges Size or color exchanges are available within the 30-day return window when replacement stock exists. NovaShop does not reserve exchange inventory. If stock is unavailable, the",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 6,
+    "text": "item is refunded instead. A different product requires a return and a new order. Personalized, digital, final-sale, gift-card, and opened hygiene items cannot be exchanged for preference reasons. 7. Damaged, Incorrect, or Missing Items Report a damaged or incorrect item within 48 hours of delivery and provide the order number plus clear photos of the item, packaging, and shipping label. Report a missing",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 7,
+    "text": "item from a multi-item shipment within 7 calendar days. Keep all packaging until the claim is resolved. NovaShop may replace the item, ship the missing part, or issue a refund after verification. 8. Payment Failures and Duplicate Charges A failed payment does not create a confirmed order. A pending authorization from a failed attempt normally disappears within 3-5 business days. For an apparent duplicate",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 8,
+    "text": "charge, wait 24 hours and compare completed transactions rather than pending authorizations. Two completed charges for one order, or a duplicate charge still present after 24 hours, must be escalated with the order number and both transaction references. 9. Product Warranty NovaShop-branded electronics include a 12-month limited warranty; NovaShop-branded",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 9,
+    "text": "accessories include a 6-month limited warranty. The warranty covers manufacturing defects under normal use. It excludes accidental damage, liquid damage, cosmetic wear, unauthorized repair, misuse, and lost items. The customer must provide proof of purchase and the product serial number when one exists. 10. NovaPlus Membership Active NovaPlus members receive free standard domestic shipping on eligible items,",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 10,
+    "text": "double reward points, and early access to selected sales. Benefits apply only while membership is active and do not cover express shipping, oversized-item fees, or international orders. Reward points expire 12 months after they are earned and have no cash value. 11. Coupons and Promotions Only one coupon may be used per order unless a campaign explicitly allows stacking.",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 11,
+    "text": "Coupons must be entered before payment and cannot be applied after an order is placed. Expired coupons cannot be restored. Coupons do not apply to gift cards, taxes, shipping fees, or excluded brands stated in the campaign terms. A coupon has no cash value. 12. Account and Login Issues Customers should use Forgot Password to request a reset link, which expires after 30",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 12,
+    "text": "minutes. After five failed login attempts, the account is locked for 30 minutes. Support may update an email address only after identity verification. Suspected account takeover, an unknown email change, or unauthorized orders require immediate escalation to a human security agent. 13. Human Support Escalation Escalate immediately for safety concerns, suspected fraud or account takeover, threats",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 13,
+    "text": "or legal demands, two completed charges for one order, or any single order worth more than USD 1,000. Also escalate after two failed self-service attempts, when identity verification cannot be completed, or when an approved refund is more than 10 business days overdue. Do not promise an outcome before human review. 14. Frequently Asked Questions",
+    "source": "data\\docs\\novashop_support.pdf"
+  },
+  {
+    "id": 14,
+    "text": "Can I cancel after shipment? No; request carrier redirection or return the order after delivery. Where is my tracking update? Allow 24 hours after dispatch. Can I return a final-sale item because I changed my mind? No. When will my refund arrive? NovaShop sends it in 5-7 business days after inspection, then the bank may need up to 10 more. Can two coupons be combined? Usually no.",
+    "source": "data\\docs\\novashop_support.pdf"
+  }
+]

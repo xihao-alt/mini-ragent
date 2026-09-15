@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiniRAGent 人工客服</title><link rel="stylesheet" href="/static/human.css"></head>
+<body><main class="console">
+  <aside><header><div><h1>人工客服</h1><p><span id="pending-count">0</span> 人等待中</p></div><button id="refresh">刷新</button></header><div id="queue" class="queue"></div></aside>
+  <section class="conversation"><header><div><h2 id="conversation-title">请选择一个工单</h2><p id="conversation-meta">等待队列按优先级和创建时间排序</p></div><button id="close-handoff" class="danger hidden">结束服务</button></header><div id="operator-messages" class="operator-messages"><div class="empty">接管工单后可与客户实时交流</div></div><form id="operator-composer" class="operator-composer hidden"><textarea id="operator-input" rows="2" maxlength="4000" placeholder="输入给客户的回复…" required></textarea><button>发送</button></form></section>
+</main><div id="operator-toast" class="operator-toast hidden"></div><script src="/static/human.js"></script></body></html>

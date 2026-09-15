@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniRAGent</title>
+  <link rel="stylesheet" href="/static/styles.css?v=4">
+  <link rel="stylesheet" href="/static/human-widget.css?v=1">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">M</div>
+        <div><strong>MiniRAGent</strong><span>Intelligent workspace</span></div>
+      </div>
+      <button id="new-chat" class="new-chat"><span>＋</span> New chat</button>
+      <div class="section-label">Conversations</div>
+      <nav id="sessions" class="sessions"></nav>
+      <div class="sidebar-bottom">
+        <div class="section-label">Knowledge base</div>
+        <div id="documents" class="documents">No documents loaded</div>
+        <label class="upload-button">
+          <input id="pdf-upload" type="file" accept="application/pdf">
+          <span>↑</span> Upload PDF
+        </label>
+        <div class="status"><i></i><span>Agent online</span></div>
+      </div>
+    </aside>
+
+    <main class="chat-panel">
+      <header class="topbar">
+        <div><h1 id="chat-title">New conversation</h1><p>RAG · Web search · Human support</p></div>
+        <button id="trace-toggle" class="icon-button" aria-label="Toggle trace">Trace</button>
+      </header>
+      <section id="messages" class="messages">
+        <div id="welcome" class="welcome">
+          <div class="welcome-mark">M</div>
+          <h2>How can I help?</h2>
+          <p>Ask about your documents, current web information, or start a conversation.</p>
+        </div>
+      </section>
+      <div id="thinking" class="thinking hidden"><span></span><span></span><span></span> MiniRAGent is thinking</div>
+      <footer class="composer-wrap">
+        <form id="composer" class="composer">
+          <textarea id="message-input" rows="1" placeholder="Message MiniRAGent…" required></textarea>
+          <button id="send" type="submit" aria-label="Send">↑</button>
+        </form>
+        <p>MiniRAGent can make mistakes. Check important information.</p>
+      </footer>
+    </main>
+
+    <aside id="trace-panel" class="trace-panel collapsed">
+      <div class="trace-head"><div><strong>Agent trace</strong><span>Execution details</span></div><button id="trace-close">×</button></div>
+      <div id="trace-content" class="trace-content"><p class="empty-trace">No trace for this turn.</p></div>
+    </aside>
+  </div>
+  <section id="human-chat" class="human-chat hidden" aria-live="polite">
+    <header><div><strong>人工客服</strong><span id="human-status">等待接入</span></div><button id="human-minimize" type="button">−</button></header>
+    <div id="human-chat-body">
+      <div id="human-messages" class="human-messages"></div>
+      <form id="human-composer" class="human-composer">
+        <input id="human-input" maxlength="4000" placeholder="给人工客服发送消息…" autocomplete="off">
+        <button type="submit">发送</button>
+      </form>
+    </div>
+  </section>
+  <div id="toast" class="toast hidden"></div>
+  <script src="/static/app.js?v=6"></script>
+</body>
+</html>

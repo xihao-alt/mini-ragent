@@ -1,0 +1,17 @@
+.env
+.env_agent
+.env_image
+models/
+output/
+.test-tmp*/
+.venv/
+data/generated/
+data/generated_images/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*.db
+data/*.db-*
+data/uploads/
+*.log
+llm_test_output.txt
